@@ -1,0 +1,13 @@
+D:/IOT PROJECTS/M2P_UART2_SCRATCH/Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Src/main.c:42:5:main	1
+../Src/main.c:56:6:button_init	1
+../Src/main.c:100:6:uart2_init	1
+../Src/main.c:154:6:send_some_data	3
+../Src/main.c:170:6:dma1_init	1
+../Src/main.c:223:6:dma1_enable	1
+../Src/main.c:232:6:dma1_interrupt_configuration	1
+../Src/main.c:250:6:HT_CompleteCallBack	1
+../Src/main.c:254:6:FT_CompleteCallBack	1
+../Src/main.c:267:6:TE_ErrorCallBack	1
+../Src/main.c:272:6:FE_ErrorCallBack	1
+../Src/main.c:276:6:DME_ErrorCallBack	1
