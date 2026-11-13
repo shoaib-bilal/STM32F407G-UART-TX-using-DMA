@@ -3,7 +3,7 @@ Whenever the user presses onboard push button of STM32F407G PA0, USART2 transmit
 STM32f407G is programmed utilizing CIMSIS header.
 
 1. USART2: Function uart2_init implements, PA2=TX PA3=RX, is configured with Baud rate=115200, 1 Start, 8 bit data and 1 stop bit. 
-2. Button interrupt: Function button_init( ) implements: PA0 as push button, configured with alternate function AF7, with rising edge trigger. EXTI IMR bit 0, interrupt enabled. Port A is select for line 0 in SYSCFG[0].
+2. Button interrupt: Function button_init( ) implements: PA0 as push button, configured with alternate function AF7, with rising edge trigger. EXTI IMR bit 0, interrupt enabled. Port A is selected for line 0 in SYSCFG[0].
 3. DMA1 stream6 channel 4 is utilized as per USART2.
 4. DMA configuration, function dma1_init( ) implements below:
   a. Destination address is the address of USART data register.
